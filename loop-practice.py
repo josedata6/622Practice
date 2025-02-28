@@ -7,7 +7,6 @@ stepValue = int(input("Provide the step value: "))
 ## startNum = int(input("Provide the starting number: "))
 
 
-
 if startValue < 0:
     startValue = abs(starttNum)
 
