@@ -63,20 +63,60 @@
 # print(total)
 
 ###########################################
+### rewrite the while with for loop
+# count = 0
+# total = 0
 
-count = 0
-total = 0
+# while True:
+#     user_input= input("entera numer or type end to finish: ")
+#     if user_input.lower()=="end": #making sure the input is lowercase
+#         print("Thanks for your input")
+#         break
+#     elif user_input.isnumeric():
+#         count+=1
+#         total = total + float(user_input)
+#     else: ### adding a check if inout is something else than end
+#         print("your input is not valid")
+#         pass
+
+#     print(count, " ", total)
+
+###################
+######## calculates the factorial of n
+
+product = 1
+count = 2
+countNon = 0
 
 while True:
-    user_input= input("entera numer or type end to finish: ")
-    if user_input.lower()=="end": #making sure the input is lowercase
-        print("Thanks for your input")
-        break
-    elif user_input.isnumeric():
-        count+=1
-        total = total + float(user_input)
-    else: ### adding a check if inout is something else than end
-        print("your input is not valid")
-        pass
+    n = input("provide an input: ")
 
-    print(count, " ", total)
+    if n.lower()=="end":
+        print("Thanks for the input")
+        break
+
+    elif n.isnumeric():        
+        while count< int(n):
+            product = product * count 
+            count +=1
+        print("the count is:", product)
+        print("the count is ", count)
+        break
+
+    else:
+        print("your input is not a number")
+        pass
+    print(countNon)
+
+
+    #####
+
+    n = int(input())
+    product = 1
+    i=1
+
+    while i<=n
+        product *=i
+        i+=1
+
+    print(product)
