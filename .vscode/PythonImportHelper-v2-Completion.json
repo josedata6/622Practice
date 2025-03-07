@@ -268,5 +268,23 @@
         "peekOfCode": "data = int(input(\"Enter number: \"))\nwhile data != \"\":\n    sum + = data",
         "detail": "while-loop",
         "documentation": {}
+    },
+    {
+        "label": "tries",
+        "kind": 5,
+        "importPath": "while-true-loop",
+        "description": "while-true-loop",
+        "peekOfCode": "tries = 0 # this is my counter for the while true loop to calculate the number of bad ties \nallTries = 0\nwhile True:\n    allTries += 1\n    userInput = input(\"Enter a number or type in end to exit: \")\n    if userInput.lower() == \"end\":\n        print(f\"All total tries: {allTries-1}\")\n        print(f\"Number of bad tries: {tries}\")\n        break # exit the loop\n    if userInput.isdigit():",
+        "detail": "while-true-loop",
+        "documentation": {}
+    },
+    {
+        "label": "allTries",
+        "kind": 5,
+        "importPath": "while-true-loop",
+        "description": "while-true-loop",
+        "peekOfCode": "allTries = 0\nwhile True:\n    allTries += 1\n    userInput = input(\"Enter a number or type in end to exit: \")\n    if userInput.lower() == \"end\":\n        print(f\"All total tries: {allTries-1}\")\n        print(f\"Number of bad tries: {tries}\")\n        break # exit the loop\n    if userInput.isdigit():\n        number = abs(int(userInput))",
+        "detail": "while-true-loop",
+        "documentation": {}
     }
 ]
