@@ -1,0 +1,272 @@
+[
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number1 = float(input(\"Enter number 1st numnber: \"))\nnumber2 = float(input(\"Enter number 2st numnber: \"))\nnumber3 = float(input(\"Enter 3rd numnber: \"))\nnumber4 = float(input(\"Enter 4th numnber: \"))\nnumber5 = float(input(\"Enter number 5st numnber: \"))\nnumber6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number2",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number2 = float(input(\"Enter number 2st numnber: \"))\nnumber3 = float(input(\"Enter 3rd numnber: \"))\nnumber4 = float(input(\"Enter 4th numnber: \"))\nnumber5 = float(input(\"Enter number 5st numnber: \"))\nnumber6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number3",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number3 = float(input(\"Enter 3rd numnber: \"))\nnumber4 = float(input(\"Enter 4th numnber: \"))\nnumber5 = float(input(\"Enter number 5st numnber: \"))\nnumber6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number4",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number4 = float(input(\"Enter 4th numnber: \"))\nnumber5 = float(input(\"Enter number 5st numnber: \"))\nnumber6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number5",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number5 = float(input(\"Enter number 5st numnber: \"))\nnumber6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]\n        for j in range(6):",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number6",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number6 = float(input(\"Enter number 6st numnber: \"))\nnums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]\n        for j in range(6):\n            if nums[j] < nums[i]:",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "nums = [number1, number2, number3, number4, number5, number6]\n# Initialize placeholders for the third and fourth smallest numbers\nthird = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]\n        for j in range(6):\n            if nums[j] < nums[i]:\n                count_smaller += 1",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "third",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "third = None\nfourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]\n        for j in range(6):\n            if nums[j] < nums[i]:\n                count_smaller += 1\n            elif nums[j] == nums[i]:\n                count_equal += 1",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "fourth",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "fourth = None\nfor i in range(6):\n        count_smaller = 0  # Count of numbers smaller than nums[i]\n        count_equal = 0  # Count of numbers equal to nums[i]\n        for j in range(6):\n            if nums[j] < nums[i]:\n                count_smaller += 1\n            elif nums[j] == nums[i]:\n                count_equal += 1\n        # The third smallest number is the one where count_smaller is exactly 2 or (2 and equal count includes it)",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "median",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "median = (third + fourth) / 2\nprint(\"The Median is!:\", median)\n## no loop being used\n# Taking inputs manually\nnumber1 = float(input(\"Enter 1st number: \"))\nnumber2 = float(input(\"Enter 2nd number: \"))\nnumber3 = float(input(\"Enter 3rd number: \"))\nnumber4 = float(input(\"Enter 4th number: \"))\nnumber5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number1 = float(input(\"Enter 1st number: \"))\nnumber2 = float(input(\"Enter 2nd number: \"))\nnumber3 = float(input(\"Enter 3rd number: \"))\nnumber4 = float(input(\"Enter 4th number: \"))\nnumber5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number2",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number2 = float(input(\"Enter 2nd number: \"))\nnumber3 = float(input(\"Enter 3rd number: \"))\nnumber4 = float(input(\"Enter 4th number: \"))\nnumber5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number3",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number3 = float(input(\"Enter 3rd number: \"))\nnumber4 = float(input(\"Enter 4th number: \"))\nnumber5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]\nif nums[4] > nums[5]: nums[4], nums[5] = nums[5], nums[4]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number4",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number4 = float(input(\"Enter 4th number: \"))\nnumber5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]\nif nums[4] > nums[5]: nums[4], nums[5] = nums[5], nums[4]\nif nums[0] > nums[2]: nums[0], nums[2] = nums[2], nums[0]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number5",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number5 = float(input(\"Enter 5th number: \"))\nnumber6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]\nif nums[4] > nums[5]: nums[4], nums[5] = nums[5], nums[4]\nif nums[0] > nums[2]: nums[0], nums[2] = nums[2], nums[0]\nif nums[1] > nums[3]: nums[1], nums[3] = nums[3], nums[1]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "number6",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "number6 = float(input(\"Enter 6th number: \"))\n# Creating the list of numbers\nnums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]\nif nums[4] > nums[5]: nums[4], nums[5] = nums[5], nums[4]\nif nums[0] > nums[2]: nums[0], nums[2] = nums[2], nums[0]\nif nums[1] > nums[3]: nums[1], nums[3] = nums[3], nums[1]\nif nums[4] > nums[2]: nums[4], nums[2] = nums[2], nums[4]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "nums = [number1, number2, number3, number4, number5, number6]\n# Manual sorting (since we can't use loops)\nif nums[0] > nums[1]: nums[0], nums[1] = nums[1], nums[0]\nif nums[2] > nums[3]: nums[2], nums[3] = nums[3], nums[2]\nif nums[4] > nums[5]: nums[4], nums[5] = nums[5], nums[4]\nif nums[0] > nums[2]: nums[0], nums[2] = nums[2], nums[0]\nif nums[1] > nums[3]: nums[1], nums[3] = nums[3], nums[1]\nif nums[4] > nums[2]: nums[4], nums[2] = nums[2], nums[4]\nif nums[5] > nums[3]: nums[5], nums[3] = nums[3], nums[5]\nif nums[1] > nums[4]: nums[1], nums[4] = nums[4], nums[1]",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "third",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "third = nums[2]\nfourth = nums[3]\n# Compute median\nmedian = (third + fourth) / 2\nprint(\"The Median is:\", median)",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "fourth",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "fourth = nums[3]\n# Compute median\nmedian = (third + fourth) / 2\nprint(\"The Median is:\", median)",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "median",
+        "kind": 5,
+        "importPath": "6input",
+        "description": "6input",
+        "peekOfCode": "median = (third + fourth) / 2\nprint(\"The Median is:\", median)",
+        "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 5,
+        "importPath": "for-while-loop",
+        "description": "for-while-loop",
+        "peekOfCode": "product = 1\ncount = 2\ncountNon = 0\nwhile True:\n    n = input(\"provide an input: \")\n    if n.lower()==\"end\":\n        print(\"Thanks for the input\")\n        break\n    elif n.isnumeric():        \n        while count< int(n):",
+        "detail": "for-while-loop",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "for-while-loop",
+        "description": "for-while-loop",
+        "peekOfCode": "count = 2\ncountNon = 0\nwhile True:\n    n = input(\"provide an input: \")\n    if n.lower()==\"end\":\n        print(\"Thanks for the input\")\n        break\n    elif n.isnumeric():        \n        while count< int(n):\n            product = product * count ",
+        "detail": "for-while-loop",
+        "documentation": {}
+    },
+    {
+        "label": "countNon",
+        "kind": 5,
+        "importPath": "for-while-loop",
+        "description": "for-while-loop",
+        "peekOfCode": "countNon = 0\nwhile True:\n    n = input(\"provide an input: \")\n    if n.lower()==\"end\":\n        print(\"Thanks for the input\")\n        break\n    elif n.isnumeric():        \n        while count< int(n):\n            product = product * count \n            count +=1",
+        "detail": "for-while-loop",
+        "documentation": {}
+    },
+    {
+        "label": "stopValue",
+        "kind": 5,
+        "importPath": "loop-practice",
+        "description": "loop-practice",
+        "peekOfCode": "stopValue = int(input(\"Provide the stop value: \"))\nstartValue = int(input(\"Provide the start value: \"))\nstepValue = int(input(\"Provide the step value: \"))\n## startNum = int(input(\"Provide the starting number: \"))\nif startValue < 0:\n    startValue = abs(starttNum)\nif stopValue  < 0:\n    iterationNum = abs(stopValue)\nproduct = 1\niterator = 1",
+        "detail": "loop-practice",
+        "documentation": {}
+    },
+    {
+        "label": "startValue",
+        "kind": 5,
+        "importPath": "loop-practice",
+        "description": "loop-practice",
+        "peekOfCode": "startValue = int(input(\"Provide the start value: \"))\nstepValue = int(input(\"Provide the step value: \"))\n## startNum = int(input(\"Provide the starting number: \"))\nif startValue < 0:\n    startValue = abs(starttNum)\nif stopValue  < 0:\n    iterationNum = abs(stopValue)\nproduct = 1\niterator = 1\nfor iterator in range(startValue, stopValue, stepValue):",
+        "detail": "loop-practice",
+        "documentation": {}
+    },
+    {
+        "label": "stepValue",
+        "kind": 5,
+        "importPath": "loop-practice",
+        "description": "loop-practice",
+        "peekOfCode": "stepValue = int(input(\"Provide the step value: \"))\n## startNum = int(input(\"Provide the starting number: \"))\nif startValue < 0:\n    startValue = abs(starttNum)\nif stopValue  < 0:\n    iterationNum = abs(stopValue)\nproduct = 1\niterator = 1\nfor iterator in range(startValue, stopValue, stepValue):\n    product = product * startValue * (iterator +1)",
+        "detail": "loop-practice",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 5,
+        "importPath": "loop-practice",
+        "description": "loop-practice",
+        "peekOfCode": "product = 1\niterator = 1\nfor iterator in range(startValue, stopValue, stepValue):\n    product = product * startValue * (iterator +1)\n    print(product)",
+        "detail": "loop-practice",
+        "documentation": {}
+    },
+    {
+        "label": "iterator",
+        "kind": 5,
+        "importPath": "loop-practice",
+        "description": "loop-practice",
+        "peekOfCode": "iterator = 1\nfor iterator in range(startValue, stopValue, stepValue):\n    product = product * startValue * (iterator +1)\n    print(product)",
+        "detail": "loop-practice",
+        "documentation": {}
+    },
+    {
+        "label": "theSum",
+        "kind": 5,
+        "importPath": "while-loop",
+        "description": "while-loop",
+        "peekOfCode": "theSum = 0 \ndata = int(input(\"Enter number: \"))\nwhile data != \"\":\n    sum + = data",
+        "detail": "while-loop",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "while-loop",
+        "description": "while-loop",
+        "peekOfCode": "data = int(input(\"Enter number: \"))\nwhile data != \"\":\n    sum + = data",
+        "detail": "while-loop",
+        "documentation": {}
+    }
+]
