@@ -252,6 +252,15 @@
         "documentation": {}
     },
     {
+        "label": "basic_for_loop",
+        "kind": 2,
+        "importPath": "looping-practice",
+        "description": "looping-practice",
+        "peekOfCode": "def basic_for_loop():\n    # Print numbers from 0 to 10\n    for i in range(11):\n        print(i)\n# # 2. Basic While Loop\n# def basic_while_loop():\n#     # Print numbers from 0 to 9\n#     i = 0\n#     while i < 10:\n#         print(i)",
+        "detail": "looping-practice",
+        "documentation": {}
+    },
+    {
         "label": "theSum",
         "kind": 5,
         "importPath": "while-loop",
