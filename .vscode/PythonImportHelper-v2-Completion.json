@@ -252,11 +252,20 @@
         "documentation": {}
     },
     {
-        "label": "basic_for_loop",
-        "kind": 2,
+        "label": "arr",
+        "kind": 5,
         "importPath": "looping-practice",
         "description": "looping-practice",
-        "peekOfCode": "def basic_for_loop():\n    # Print numbers from 0 to 10\n    for i in range(11):\n        print(i)\n# # 2. Basic While Loop\n# def basic_while_loop():\n#     # Print numbers from 0 to 9\n#     i = 0\n#     while i < 10:\n#         print(i)",
+        "peekOfCode": "arr = [5, 2, 9, 1, 5, 6]\nn = len(arr)\n# for i in range(n):\n#     for j in range(0, n-i-1):\n#         if arr[j] > arr[j+1]:\n#             arr[j], arr[j+1] = arr[j+1], arr[j]\nprint(n)\n# # 7. Linear Search\n# def linear_search(arr, target):\n#     # Search for target in array and return its position",
+        "detail": "looping-practice",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "looping-practice",
+        "description": "looping-practice",
+        "peekOfCode": "n = len(arr)\n# for i in range(n):\n#     for j in range(0, n-i-1):\n#         if arr[j] > arr[j+1]:\n#             arr[j], arr[j+1] = arr[j+1], arr[j]\nprint(n)\n# # 7. Linear Search\n# def linear_search(arr, target):\n#     # Search for target in array and return its position\n#     for i in range(len(arr)):",
         "detail": "looping-practice",
         "documentation": {}
     },

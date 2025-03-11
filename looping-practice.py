@@ -1,23 +1,24 @@
-# 1. Basic For Loop
-def basic_for_loop():
-    # Print numbers from 0 to 10
-    for i in range(11):
-        print(i)
-
+# # 1. Basic For Loop
+# # def basic_for_loop():
+#     # Print numbers from 0 to 10
+# for i in range(11):
+#     print(i)
+# # Call the function to execute it
+# # basic_for_loop()
 
 # # 2. Basic While Loop
 # def basic_while_loop():
 #     # Print numbers from 0 to 9
-#     i = 0
-#     while i < 10:
-#         print(i)
-#         i = i + 1
+# i = 0
+# while i < 10:
+#     print(i)
+#     i = i + 1
 
 
 # # 3. Nested For Loops
 # def nested_for_loop():
 #     # Print coordinates (i,j) for a 5x5 grid
-#     for i in range(5):
+# for i in range(5):
 #         for j in range(5):
 #             print(f"({i},{j})")
 
@@ -25,7 +26,7 @@ def basic_for_loop():
 # # 4. For Loop with If Condition
 # def print_even_numbers():
 #     # Print even numbers from 1 to 100
-#     for i in range(1, 101):
+# for i in range(1, 101):
 #         if i % 2 == 0:  # If i is divisible by 2 (even)
 #             print(i)
 
@@ -33,27 +34,24 @@ def basic_for_loop():
 # # 5. While Loop with If Condition
 # def print_divisible_by_three():
 #     # Print numbers divisible by 3 from 1 to 100
-#     i = 1
-#     while i <= 100:
+# i = 1
+# while i <= 100:
 #         if i % 3 == 0:  # If i is divisible by 3
 #             print(i)
 #         i = i + 1
 
 
 # # 6. Bubble Sort
-# def bubble_sort(arr):
-#     # Sort an array using bubble sort
-#     n = len(arr)
-    
-#     # Go through all array elements
-#     for i in range(n):
-#         # Last i elements are already in place
-#         for j in range(0, n-i-1):
-#             # Swap if the element found is greater than the next element
-#             if arr[j] > arr[j+1]:
-#                 arr[j], arr[j+1] = arr[j+1], arr[j]
-    
-#     return arr
+arr = [5, 2, 9, 1, 5, 6]
+n = len(arr)
+
+# for i in range(n):
+#     for j in range(0, n-i-1):
+#         if arr[j] > arr[j+1]:
+#             arr[j], arr[j+1] = arr[j+1], arr[j]
+
+print(n)
+
 
 
 # # 7. Linear Search
