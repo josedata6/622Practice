@@ -41,16 +41,16 @@
 #         i = i + 1
 
 
-# # 6. Bubble Sort
-arr = [5, 2, 9, 1, 5, 6]
-n = len(arr)
+# # # 6. Bubble Sort
+# arr = [5, 2, 9, 1, 5, 6]
+# n = len(arr)
 
 # for i in range(n):
 #     for j in range(0, n-i-1):
 #         if arr[j] > arr[j+1]:
 #             arr[j], arr[j+1] = arr[j+1], arr[j]
 
-print(n)
+# print(arr)
 
 
 
@@ -125,14 +125,13 @@ print(n)
 #     return result
 
 
-# # 12. Sum of Array Elements
+# # # 12. Sum of Array Elements
 # def sum_array(arr):
 #     # Calculate sum of all elements in array
 #     total = 0
     
 #     for num in arr:
 #         total = total + num
-    
 #     return total
 
 
@@ -161,14 +160,14 @@ print(n)
 
 
 # # 15. While Loop with Continue
-# def while_loop_continue():
-#     # Skip even numbers and print odd numbers
-#     i = 0
-#     while i < 20:
-#         i = i + 1
-#         if i % 2 == 0:
-#             continue  # Skip rest of loop if number is even
-#         print(i)
+def while_loop_continue():
+    # Skip even numbers and print odd numbers
+    i = 0
+    while i < 20:
+        i = i + 1
+        if i % 2 == 0:
+            continue  # Skip rest of loop if number is even
+        print(i)
 
 
 # # 16. Prime Number Check
