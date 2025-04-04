@@ -1,5 +1,40 @@
 [
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "number1",
         "kind": 5,
         "importPath": "6input",
@@ -177,6 +212,942 @@
         "description": "6input",
         "peekOfCode": "median = (third + fourth) / 2\nprint(\"The Median is:\", median)",
         "detail": "6input",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    print(\"Hello, World!\")\nif __name__ == '__main__':\n    main()\n# Exdample # 2\nimport sys\n# Accessing command-line arguments\nprint(\"Command-line arguments:\", sys.argv)\n# Printing Python version\nprint(\"Python version:\", sys.version)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    if len(sys.argv) > 1:\n        print(\"Arguments:\", sys.argv[1:])\n    else:\n        print(\"No arguments provided.\")\nif __name__ == '__main__':\n    main()\n# Example # 4\n# Basic Main Function\ndef main():",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    print(\"Hello, World!\")\nif __name__ == '__main__':\n    main()\n# Example # 5\n# Main Guard Check\ndef main():\n    print(\"Running as a standalone program.\")\nif __name__ == '__main__':\n    main()",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    print(\"Running as a standalone program.\")\nif __name__ == '__main__':\n    main()\n# Example # 6\n# Calling Sub-Functions Within Main\ndef greet():\n    print(\"Hello from greet()!\")\ndef main():\n    greet()",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def greet():\n    print(\"Hello from greet()!\")\ndef main():\n    greet()\nif __name__ == '__main__':\n    main()\n# Example # 7\n# Multiple Sub-function Calls\ndef greet():\n    print(\"Hello!\")",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    greet()\nif __name__ == '__main__':\n    main()\n# Example # 7\n# Multiple Sub-function Calls\ndef greet():\n    print(\"Hello!\")\ndef farewell():\n    print(\"Goodbye!\")",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def greet():\n    print(\"Hello!\")\ndef farewell():\n    print(\"Goodbye!\")\ndef main():\n    greet()\n    farewell()\nif __name__ == '__main__':\n    main()\n# Example # 8",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "farewell",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def farewell():\n    print(\"Goodbye!\")\ndef main():\n    greet()\n    farewell()\nif __name__ == '__main__':\n    main()\n# Example # 8\n#Error Handling in Main\ndef main():",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    greet()\n    farewell()\nif __name__ == '__main__':\n    main()\n# Example # 8\n#Error Handling in Main\ndef main():\n    try:\n        result = 10 / 0",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    try:\n        result = 10 / 0\n    except ZeroDivisionError:\n        print(\"Error: Division by zero occurred.\")\nif __name__ == '__main__':\n    main()\n# Example # 9\n#Parameter Passing in Main\ndef main(x, y):",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main(x, y):\n    print(\"Sum:\", x + y)\nif __name__ == '__main__':\n    main(5, 7)\n# Example # 10\n# Default Parameter Values\ndef main(x=10, y=20):\n    print(\"Sum with defaults:\", x + y)\nif __name__ == '__main__':\n    main()",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main(x=10, y=20):\n    print(\"Sum with defaults:\", x + y)\nif __name__ == '__main__':\n    main()\n# Example # 11\n# Using Environment Variables in Main\nimport os\ndef main():\n    home = os.getenv(\"HOME\", \"Not Set\")\n    print(\"HOME directory:\", home)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    home = os.getenv(\"HOME\", \"Not Set\")\n    print(\"HOME directory:\", home)\nif __name__ == '__main__':\n    main()\n# Example # 12\n#Multiprocessing Task\nimport multiprocessing\ndef worker(num):\n    print(f\"Worker processing number: {num}\")",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "worker",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def worker(num):\n    print(f\"Worker processing number: {num}\")\ndef main():\n    p = multiprocessing.Process(target=worker, args=(42,))\n    p.start()\n    p.join()\nif __name__ == '__main__':\n    main()\n# List Example # 1\n# Creating a List",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def main():\n    p = multiprocessing.Process(target=worker, args=(42,))\n    p.start()\n    p.join()\nif __name__ == '__main__':\n    main()\n# List Example # 1\n# Creating a List\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "add_numbers",
+        "kind": 2,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "def add_numbers(numbers):\n    return sum(numbers)\nnumbers_tuple = (1, 2, 3, 4, 5)\nresult = add_numbers(numbers_tuple)\nprint(\"Sum of tuple elements:\", result)  # Output: 15\n# Dictionary Example # 1   \n# Creating a Dictionary\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict)\n# Dictionary Example # 2",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_list = [1, 2, 3, 4, 5]\nprint(my_list)\n# List Example # 2\n#Creating a List of Strings\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)\n# List Example # 3\n# Iteration Using a For Loop\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)\n# List Example # 3\n# Iteration Using a For Loop\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)\nfor fruit in fruits:\n    print(fruit)\n# List Example # 4\n#Generate a list of squares from 1 to 5",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)\nfor fruit in fruits:\n    print(fruit)\n# List Example # 4\n#Generate a list of squares from 1 to 5\nsquares = [x**2 for x in range(1, 6)]\nprint(squares)\n# List Example # 5\n#Modifying Lists (Adding)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "squares",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "squares = [x**2 for x in range(1, 6)]\nprint(squares)\n# List Example # 5\n#Modifying Lists (Adding)\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")\nprint(fruits)\n# List Example # 6\n#  Inserting an Element at a Specific Index\nfruits = [\"apple\", \"banana\", \"cherry\"]",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"orange\")\nprint(fruits)\n# List Example # 6\n#  Inserting an Element at a Specific Index\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.insert(1, \"kiwi\")\nprint(fruits)\n# List Example # 7\n# Removing Elements from a List",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.insert(1, \"kiwi\")\nprint(fruits)\n# List Example # 7\n# Removing Elements from a List\n# Removing an Element by Value\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.remove(\"banana\")\nprint(fruits)\n# List Example # 8",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.remove(\"banana\")\nprint(fruits)\n# List Example # 8\n# Removing an Element by Index\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.pop(1)\nprint(fruits)\n# List Example # 9\n# Sorting a List",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.pop(1)\nprint(fruits)\n# List Example # 9\n# Sorting a List\nfruits = [\"banana\", \"apple\", \"cherry\"]\nfruits.sort()\nprint(fruits)\n# List Example # 10\n# Reversing a List",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"banana\", \"apple\", \"cherry\"]\nfruits.sort()\nprint(fruits)\n# List Example # 10\n# Reversing a List\nfruits = [\"banana\", \"apple\", \"cherry\"]\nfruits.reverse()\nprint(fruits)\n# List Example # 11\n# List Length",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"banana\", \"apple\", \"cherry\"]\nfruits.reverse()\nprint(fruits)\n# List Example # 11\n# List Length\nfruits = [\"banana\", \"apple\", \"cherry\"]\nprint(\"Length of list:\", len(fruits))\n# List Example # 12\n# List Slicing\nfruits = [\"banana\", \"apple\", \"cherry\", \"orange\", \"kiwi\"]",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"banana\", \"apple\", \"cherry\"]\nprint(\"Length of list:\", len(fruits))\n# List Example # 12\n# List Slicing\nfruits = [\"banana\", \"apple\", \"cherry\", \"orange\", \"kiwi\"]\nprint(\"Sliced list:\", fruits[1:4])  # Output: ['apple', 'cherry', 'orange']\n# List Example # 13\n# finding the Index of an Element\nfruits = [\"banana\", \"apple\", \"cherry\"]\nindex = fruits.index(\"cherry\")",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"banana\", \"apple\", \"cherry\", \"orange\", \"kiwi\"]\nprint(\"Sliced list:\", fruits[1:4])  # Output: ['apple', 'cherry', 'orange']\n# List Example # 13\n# finding the Index of an Element\nfruits = [\"banana\", \"apple\", \"cherry\"]\nindex = fruits.index(\"cherry\")\nprint(\"Index of 'cherry':\", index)  # Output: 2\n# List Example # 14\n# creating a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "fruits = [\"banana\", \"apple\", \"cherry\"]\nindex = fruits.index(\"cherry\")\nprint(\"Index of 'cherry':\", index)  # Output: 2\n# List Example # 14\n# creating a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Nested list:\", nested_list)\n# List Example # 15\n#assesing elements in a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "index = fruits.index(\"cherry\")\nprint(\"Index of 'cherry':\", index)  # Output: 2\n# List Example # 14\n# creating a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Nested list:\", nested_list)\n# List Example # 15\n#assesing elements in a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Element at [1][2]:\", nested_list[1][2])  # Output: 6",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "nested_list",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Nested list:\", nested_list)\n# List Example # 15\n#assesing elements in a nested list\nnested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Element at [1][2]:\", nested_list[1][2])  # Output: 6\n# Tuple Example # 1\n# Creating a Tuple\nmy_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "nested_list",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(\"Element at [1][2]:\", nested_list[1][2])  # Output: 6\n# Tuple Example # 1\n# Creating a Tuple\nmy_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple)\n# Tuple Example # 2\n# Creating a Tuple with Mixed Data Types\nmixed_tuple = (1, \"apple\", 3.14, True)\nprint(mixed_tuple)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple)\n# Tuple Example # 2\n# Creating a Tuple with Mixed Data Types\nmixed_tuple = (1, \"apple\", 3.14, True)\nprint(mixed_tuple)\n# Tuple Example # 3\n# Accessing Tuple Elements\nmy_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple[0])  # Output: 1",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "mixed_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "mixed_tuple = (1, \"apple\", 3.14, True)\nprint(mixed_tuple)\n# Tuple Example # 3\n# Accessing Tuple Elements\nmy_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple[0])  # Output: 1\nprint(my_tuple[2])  # Output: 3\n# Tuple Example # 4\n# Iterating Through a Tuple\nmy_tuple = (1, 2, 3, 4, 5)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\nprint(my_tuple[0])  # Output: 1\nprint(my_tuple[2])  # Output: 3\n# Tuple Example # 4\n# Iterating Through a Tuple\nmy_tuple = (1, 2, 3, 4, 5)\nfor item in my_tuple:\n    print(item)\n# Tuple Example # 5\n# Tuple Length",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\nfor item in my_tuple:\n    print(item)\n# Tuple Example # 5\n# Tuple Length\nmy_tuple = (1, 2, 3, 4, 5)\nprint(\"Length of tuple:\", len(my_tuple))\n# Tuple Example # 6\n# Tuple Slicing\nmy_tuple = (1, 2, 3, 4, 5)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\nprint(\"Length of tuple:\", len(my_tuple))\n# Tuple Example # 6\n# Tuple Slicing\nmy_tuple = (1, 2, 3, 4, 5)\nprint(\"Sliced tuple:\", my_tuple[1:4])  # Output: (2, 3, 4)\n# Tuple Example # 7\n# Nested Tuple\nnested_tuple = ((1, 2), (3, 4), (5, 6))\nprint(\"Nested tuple:\", nested_tuple)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\nprint(\"Sliced tuple:\", my_tuple[1:4])  # Output: (2, 3, 4)\n# Tuple Example # 7\n# Nested Tuple\nnested_tuple = ((1, 2), (3, 4), (5, 6))\nprint(\"Nested tuple:\", nested_tuple)\n# Tuple Example # 8\n# Unpacking a Tuple\nmy_tuple = (1, 2, 3)\na, b, c = my_tuple",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "nested_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "nested_tuple = ((1, 2), (3, 4), (5, 6))\nprint(\"Nested tuple:\", nested_tuple)\n# Tuple Example # 8\n# Unpacking a Tuple\nmy_tuple = (1, 2, 3)\na, b, c = my_tuple\nprint(\"Unpacked values:\", a, b, c)  # Output: 1 2 3\n# Tuple Example # 9\n# Tuple with One Element\nsingle_element_tuple = (1,)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3)\na, b, c = my_tuple\nprint(\"Unpacked values:\", a, b, c)  # Output: 1 2 3\n# Tuple Example # 9\n# Tuple with One Element\nsingle_element_tuple = (1,)\nprint(\"Single element tuple:\", single_element_tuple)  # Output: (1,)\n# Tuple Example # 10\n# Concatenating Tuples\ntuple1 = (1, 2, 3)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "single_element_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "single_element_tuple = (1,)\nprint(\"Single element tuple:\", single_element_tuple)  # Output: (1,)\n# Tuple Example # 10\n# Concatenating Tuples\ntuple1 = (1, 2, 3)\ntuple2 = (4, 5, 6)\nconcatenated = tuple1 + tuple2\nprint(\"Concatenated tuple:\", concatenated)  # Output: (1, 2, 3, 4, 5, 6)\n# Tuple Example # 11\n#enumerate a tuple",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "tuple1 = (1, 2, 3)\ntuple2 = (4, 5, 6)\nconcatenated = tuple1 + tuple2\nprint(\"Concatenated tuple:\", concatenated)  # Output: (1, 2, 3, 4, 5, 6)\n# Tuple Example # 11\n#enumerate a tuple\nmy_tuple = (\"apple\", \"banana\", \"cherry\")\nfor index, value in enumerate(my_tuple):\n    print(index, value)\n# Tuple Example # 12",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "tuple2",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "tuple2 = (4, 5, 6)\nconcatenated = tuple1 + tuple2\nprint(\"Concatenated tuple:\", concatenated)  # Output: (1, 2, 3, 4, 5, 6)\n# Tuple Example # 11\n#enumerate a tuple\nmy_tuple = (\"apple\", \"banana\", \"cherry\")\nfor index, value in enumerate(my_tuple):\n    print(index, value)\n# Tuple Example # 12\n# Tuple Methods",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "concatenated",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "concatenated = tuple1 + tuple2\nprint(\"Concatenated tuple:\", concatenated)  # Output: (1, 2, 3, 4, 5, 6)\n# Tuple Example # 11\n#enumerate a tuple\nmy_tuple = (\"apple\", \"banana\", \"cherry\")\nfor index, value in enumerate(my_tuple):\n    print(index, value)\n# Tuple Example # 12\n# Tuple Methods\nmy_tuple = (1, 2, 3, 2, 1)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (\"apple\", \"banana\", \"cherry\")\nfor index, value in enumerate(my_tuple):\n    print(index, value)\n# Tuple Example # 12\n# Tuple Methods\nmy_tuple = (1, 2, 3, 2, 1)\ncount_of_1 = my_tuple.count(1)\nindex_of_2 = my_tuple.index(2)\nprint(\"Count of 1:\", count_of_1)  # Output: 2\nprint(\"Index of 2:\", index_of_2)  # Output: 1",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_tuple = (1, 2, 3, 2, 1)\ncount_of_1 = my_tuple.count(1)\nindex_of_2 = my_tuple.index(2)\nprint(\"Count of 1:\", count_of_1)  # Output: 2\nprint(\"Index of 2:\", index_of_2)  # Output: 1\n#tuple Example # 13\n#tuplle in functions\ndef add_numbers(numbers):\n    return sum(numbers)\nnumbers_tuple = (1, 2, 3, 4, 5)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "count_of_1",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "count_of_1 = my_tuple.count(1)\nindex_of_2 = my_tuple.index(2)\nprint(\"Count of 1:\", count_of_1)  # Output: 2\nprint(\"Index of 2:\", index_of_2)  # Output: 1\n#tuple Example # 13\n#tuplle in functions\ndef add_numbers(numbers):\n    return sum(numbers)\nnumbers_tuple = (1, 2, 3, 4, 5)\nresult = add_numbers(numbers_tuple)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "index_of_2",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "index_of_2 = my_tuple.index(2)\nprint(\"Count of 1:\", count_of_1)  # Output: 2\nprint(\"Index of 2:\", index_of_2)  # Output: 1\n#tuple Example # 13\n#tuplle in functions\ndef add_numbers(numbers):\n    return sum(numbers)\nnumbers_tuple = (1, 2, 3, 4, 5)\nresult = add_numbers(numbers_tuple)\nprint(\"Sum of tuple elements:\", result)  # Output: 15",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_tuple",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "numbers_tuple = (1, 2, 3, 4, 5)\nresult = add_numbers(numbers_tuple)\nprint(\"Sum of tuple elements:\", result)  # Output: 15\n# Dictionary Example # 1   \n# Creating a Dictionary\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict)\n# Dictionary Example # 2\n# Accessing Dictionary Values\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "result = add_numbers(numbers_tuple)\nprint(\"Sum of tuple elements:\", result)  # Output: 15\n# Dictionary Example # 1   \n# Creating a Dictionary\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict)\n# Dictionary Example # 2\n# Accessing Dictionary Values\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict[\"name\"])  # Output: Alice",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict)\n# Dictionary Example # 2\n# Accessing Dictionary Values\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict[\"name\"])  # Output: Alice\nprint(my_dict[\"age\"])   # Output: 30\n# Dictionary Example # 3\n# Adding Key-Value Pairs\nmy_dict = {\"name\": \"Alice\", \"age\": 30}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(my_dict[\"name\"])  # Output: Alice\nprint(my_dict[\"age\"])   # Output: 30\n# Dictionary Example # 3\n# Adding Key-Value Pairs\nmy_dict = {\"name\": \"Alice\", \"age\": 30}\nmy_dict[\"city\"] = \"New York\"\nprint(my_dict)\n# Dictionary Example # 4\n# Modifying Values",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30}\nmy_dict[\"city\"] = \"New York\"\nprint(my_dict)\n# Dictionary Example # 4\n# Modifying Values\nmy_dict = {\"name\": \"Alice\", \"age\": 30}\nmy_dict[\"age\"] = 31\nprint(my_dict)\n# Dictionary Example # 5\n# Removing Key-Value Pairs",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict[\"city\"]",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict[\"city\"] = \"New York\"\nprint(my_dict)\n# Dictionary Example # 4\n# Modifying Values\nmy_dict = {\"name\": \"Alice\", \"age\": 30}\nmy_dict[\"age\"] = 31\nprint(my_dict)\n# Dictionary Example # 5\n# Removing Key-Value Pairs\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30}\nmy_dict[\"age\"] = 31\nprint(my_dict)\n# Dictionary Example # 5\n# Removing Key-Value Pairs\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\ndel my_dict[\"age\"]\nprint(my_dict)\n# Dictionary Example # 6\n# Iterating Through a Dictionary",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict[\"age\"]",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict[\"age\"] = 31\nprint(my_dict)\n# Dictionary Example # 5\n# Removing Key-Value Pairs\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\ndel my_dict[\"age\"]\nprint(my_dict)\n# Dictionary Example # 6\n# Iterating Through a Dictionary\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\ndel my_dict[\"age\"]\nprint(my_dict)\n# Dictionary Example # 6\n# Iterating Through a Dictionary\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nfor key, value in my_dict.items():\n    print(key, \":\", value)\n# Dictionary Example # 7\n# Dictionary Length",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nfor key, value in my_dict.items():\n    print(key, \":\", value)\n# Dictionary Example # 7\n# Dictionary Length\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(\"Length of dictionary:\", len(my_dict))\n# Dictionary Example # 8\n# Checking if a Key Exists\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nprint(\"Length of dictionary:\", len(my_dict))\n# Dictionary Example # 8\n# Checking if a Key Exists\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nif \"name\" in my_dict:\n    print(\"Key 'name' exists in the dictionary.\")\nelse:\n    print(\"Key 'name' does not exist in the dictionary.\")\n# Dictionary Example # 9    ",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nif \"name\" in my_dict:\n    print(\"Key 'name' exists in the dictionary.\")\nelse:\n    print(\"Key 'name' does not exist in the dictionary.\")\n# Dictionary Example # 9    \n# Dictionary with Mixed Data Types\nmixed_dict = {\"name\": \"Alice\", \"age\": 30, \"is_student\": False}\nprint(mixed_dict)\n# Dictionary Example # 10",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "mixed_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "mixed_dict = {\"name\": \"Alice\", \"age\": 30, \"is_student\": False}\nprint(mixed_dict)\n# Dictionary Example # 10\n# Nested Dictionary\nnested_dict = {\"person\": {\"name\": \"Alice\", \"age\": 30}, \"city\": \"New York\"}\nprint(nested_dict)\n# Dictionary Example # 11\n# Dictionary Methods\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nkeys = my_dict.keys()",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "nested_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "nested_dict = {\"person\": {\"name\": \"Alice\", \"age\": 30}, \"city\": \"New York\"}\nprint(nested_dict)\n# Dictionary Example # 11\n# Dictionary Methods\nmy_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nkeys = my_dict.keys()\nvalues = my_dict.values()\nitems = my_dict.items()\nprint(\"Keys:\", keys)    # Output: dict_keys(['name', 'age', 'city'])\nprint(\"Values:\", values)  # Output: dict_values(['Alice', 30, 'New York'])",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_dict = {\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}\nkeys = my_dict.keys()\nvalues = my_dict.values()\nitems = my_dict.items()\nprint(\"Keys:\", keys)    # Output: dict_keys(['name', 'age', 'city'])\nprint(\"Values:\", values)  # Output: dict_values(['Alice', 30, 'New York'])\nprint(\"Items:\", items)    # Output: dict_items([('name', 'Alice'), ('age', 30), ('city', 'New York')])\n# Dictionary Example # 12\n# Merging Two Dictionaries\ndict1 = {\"name\": \"Alice\", \"age\": 30}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "keys = my_dict.keys()\nvalues = my_dict.values()\nitems = my_dict.items()\nprint(\"Keys:\", keys)    # Output: dict_keys(['name', 'age', 'city'])\nprint(\"Values:\", values)  # Output: dict_values(['Alice', 30, 'New York'])\nprint(\"Items:\", items)    # Output: dict_items([('name', 'Alice'), ('age', 30), ('city', 'New York')])\n# Dictionary Example # 12\n# Merging Two Dictionaries\ndict1 = {\"name\": \"Alice\", \"age\": 30}\ndict2 = {\"city\": \"New York\", \"country\": \"USA\"}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "values = my_dict.values()\nitems = my_dict.items()\nprint(\"Keys:\", keys)    # Output: dict_keys(['name', 'age', 'city'])\nprint(\"Values:\", values)  # Output: dict_values(['Alice', 30, 'New York'])\nprint(\"Items:\", items)    # Output: dict_items([('name', 'Alice'), ('age', 30), ('city', 'New York')])\n# Dictionary Example # 12\n# Merging Two Dictionaries\ndict1 = {\"name\": \"Alice\", \"age\": 30}\ndict2 = {\"city\": \"New York\", \"country\": \"USA\"}\nmerged_dict = {**dict1, **dict2}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "items = my_dict.items()\nprint(\"Keys:\", keys)    # Output: dict_keys(['name', 'age', 'city'])\nprint(\"Values:\", values)  # Output: dict_values(['Alice', 30, 'New York'])\nprint(\"Items:\", items)    # Output: dict_items([('name', 'Alice'), ('age', 30), ('city', 'New York')])\n# Dictionary Example # 12\n# Merging Two Dictionaries\ndict1 = {\"name\": \"Alice\", \"age\": 30}\ndict2 = {\"city\": \"New York\", \"country\": \"USA\"}\nmerged_dict = {**dict1, **dict2}\nprint(\"Merged dictionary:\", merged_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York', 'country': 'USA'}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "dict1",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "dict1 = {\"name\": \"Alice\", \"age\": 30}\ndict2 = {\"city\": \"New York\", \"country\": \"USA\"}\nmerged_dict = {**dict1, **dict2}\nprint(\"Merged dictionary:\", merged_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York', 'country': 'USA'}\n# Dictionary Example # 13\n# Dictionary Comprehension\nsquared_dict = {x: x**2 for x in range(5)}\nprint(\"Squared dictionary:\", squared_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}\n# Dictionary Example # 14\n# Dictionary with Default Values",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "dict2",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "dict2 = {\"city\": \"New York\", \"country\": \"USA\"}\nmerged_dict = {**dict1, **dict2}\nprint(\"Merged dictionary:\", merged_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York', 'country': 'USA'}\n# Dictionary Example # 13\n# Dictionary Comprehension\nsquared_dict = {x: x**2 for x in range(5)}\nprint(\"Squared dictionary:\", squared_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}\n# Dictionary Example # 14\n# Dictionary with Default Values\nfrom collections import defaultdict",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "merged_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "merged_dict = {**dict1, **dict2}\nprint(\"Merged dictionary:\", merged_dict)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York', 'country': 'USA'}\n# Dictionary Example # 13\n# Dictionary Comprehension\nsquared_dict = {x: x**2 for x in range(5)}\nprint(\"Squared dictionary:\", squared_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}\n# Dictionary Example # 14\n# Dictionary with Default Values\nfrom collections import defaultdict\ndefault_dict = defaultdict(int)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "squared_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "squared_dict = {x: x**2 for x in range(5)}\nprint(\"Squared dictionary:\", squared_dict)  # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}\n# Dictionary Example # 14\n# Dictionary with Default Values\nfrom collections import defaultdict\ndefault_dict = defaultdict(int)\ndefault_dict[\"a\"] += 1\ndefault_dict[\"b\"] += 2\nprint(\"Default dictionary:\", default_dict)  # Output: defaultdict(<class 'int'>, {'a': 1, 'b': 2})\n# Dictionary Example # 15",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "default_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "default_dict = defaultdict(int)\ndefault_dict[\"a\"] += 1\ndefault_dict[\"b\"] += 2\nprint(\"Default dictionary:\", default_dict)  # Output: defaultdict(<class 'int'>, {'a': 1, 'b': 2})\n# Dictionary Example # 15\n# Dictionary with Tuple Keys\ntuple_dict = {(\"x\", \"y\"): 1, (\"a\", \"b\"): 2}\nprint(\"Dictionary with tuple keys:\", tuple_dict)  # Output: {('x', 'y'): 1, ('a', 'b'): 2}\n# Dictionary Example # 16\n# Dictionary with List Values",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "tuple_dict = {(\"x\", \"y\"): 1, (\"a\", \"b\"): 2}\nprint(\"Dictionary with tuple keys:\", tuple_dict)  # Output: {('x', 'y'): 1, ('a', 'b'): 2}\n# Dictionary Example # 16\n# Dictionary with List Values\nlist_dict = {\"fruits\": [\"apple\", \"banana\"], \"vegetables\": [\"carrot\", \"broccoli\"]}\nprint(\"Dictionary with list values:\", list_dict)  # Output: {'fruits': ['apple', 'banana'], 'vegetables': ['carrot', 'broccoli']}\n# Dictionary Example # 17\n# Dictionary with Set Values\nset_dict = {\"fruits\": {\"apple\", \"banana\"}, \"vegetables\": {\"carrot\", \"broccoli\"}}\nprint(\"Dictionary with set values:\", set_dict)  # Output: {'fruits': {'banana', 'apple'}, 'vegetables': {'carrot', 'broccoli'}}",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "list_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "list_dict = {\"fruits\": [\"apple\", \"banana\"], \"vegetables\": [\"carrot\", \"broccoli\"]}\nprint(\"Dictionary with list values:\", list_dict)  # Output: {'fruits': ['apple', 'banana'], 'vegetables': ['carrot', 'broccoli']}\n# Dictionary Example # 17\n# Dictionary with Set Values\nset_dict = {\"fruits\": {\"apple\", \"banana\"}, \"vegetables\": {\"carrot\", \"broccoli\"}}\nprint(\"Dictionary with set values:\", set_dict)  # Output: {'fruits': {'banana', 'apple'}, 'vegetables': {'carrot', 'broccoli'}}\n#String Example # 1\n# Creating a String\nmy_string = \"Hello, World!\"\nprint(my_string)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "set_dict",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "set_dict = {\"fruits\": {\"apple\", \"banana\"}, \"vegetables\": {\"carrot\", \"broccoli\"}}\nprint(\"Dictionary with set values:\", set_dict)  # Output: {'fruits': {'banana', 'apple'}, 'vegetables': {'carrot', 'broccoli'}}\n#String Example # 1\n# Creating a String\nmy_string = \"Hello, World!\"\nprint(my_string)\n# String Example # 2\n# Accessing String Characters\nmy_string = \"Hello, World!\"\nprint(my_string[0])  # Output: H",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello, World!\"\nprint(my_string)\n# String Example # 2\n# Accessing String Characters\nmy_string = \"Hello, World!\"\nprint(my_string[0])  # Output: H\n# String Example # 3\n# String Length\nmy_string = \"Hello, World!\"\nprint(\"Length of string:\", len(my_string))",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello, World!\"\nprint(my_string[0])  # Output: H\n# String Example # 3\n# String Length\nmy_string = \"Hello, World!\"\nprint(\"Length of string:\", len(my_string))\n# String Example # 4\n# String Slicing\nmy_string = \"Hello, World!\"\nprint(\"Sliced string:\", my_string[0:5])  # Output: Hello",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello, World!\"\nprint(\"Length of string:\", len(my_string))\n# String Example # 4\n# String Slicing\nmy_string = \"Hello, World!\"\nprint(\"Sliced string:\", my_string[0:5])  # Output: Hello\n# String Example # 5\n# String Concatenation\nstring1 = \"Hello\"\nstring2 = \"World\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello, World!\"\nprint(\"Sliced string:\", my_string[0:5])  # Output: Hello\n# String Example # 5\n# String Concatenation\nstring1 = \"Hello\"\nstring2 = \"World\"\nconcatenated = string1 + \", \" + string2 + \"!\"\nprint(\"Concatenated string:\", concatenated)  # Output: Hello, World!\n# String Example # 6\n# String Repetition",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "string1",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "string1 = \"Hello\"\nstring2 = \"World\"\nconcatenated = string1 + \", \" + string2 + \"!\"\nprint(\"Concatenated string:\", concatenated)  # Output: Hello, World!\n# String Example # 6\n# String Repetition\nmy_string = \"Hello\"\nrepeated = my_string * 3\nprint(\"Repeated string:\", repeated)  # Output: HelloHelloHello\n# String Example # 7",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "string2",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "string2 = \"World\"\nconcatenated = string1 + \", \" + string2 + \"!\"\nprint(\"Concatenated string:\", concatenated)  # Output: Hello, World!\n# String Example # 6\n# String Repetition\nmy_string = \"Hello\"\nrepeated = my_string * 3\nprint(\"Repeated string:\", repeated)  # Output: HelloHelloHello\n# String Example # 7\n# String Methods",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "concatenated",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "concatenated = string1 + \", \" + string2 + \"!\"\nprint(\"Concatenated string:\", concatenated)  # Output: Hello, World!\n# String Example # 6\n# String Repetition\nmy_string = \"Hello\"\nrepeated = my_string * 3\nprint(\"Repeated string:\", repeated)  # Output: HelloHelloHello\n# String Example # 7\n# String Methods\nmy_string = \"Hello, World!\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello\"\nrepeated = my_string * 3\nprint(\"Repeated string:\", repeated)  # Output: HelloHelloHello\n# String Example # 7\n# String Methods\nmy_string = \"Hello, World!\"\nprint(\"Uppercase:\", my_string.upper())  # Output: HELLO, WORLD!\nprint(\"Lowercase:\", my_string.lower())  # Output: hello, world!\nprint(\"Title Case:\", my_string.title())  # Output: Hello, World!\nprint(\"Split:\", my_string.split(\", \"))  # Output: ['Hello', 'World!']",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "repeated",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "repeated = my_string * 3\nprint(\"Repeated string:\", repeated)  # Output: HelloHelloHello\n# String Example # 7\n# String Methods\nmy_string = \"Hello, World!\"\nprint(\"Uppercase:\", my_string.upper())  # Output: HELLO, WORLD!\nprint(\"Lowercase:\", my_string.lower())  # Output: hello, world!\nprint(\"Title Case:\", my_string.title())  # Output: Hello, World!\nprint(\"Split:\", my_string.split(\", \"))  # Output: ['Hello', 'World!']\nprint(\"Join:\", \", \".join(['Hello', 'World!']))  # Output: Hello, World!",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello, World!\"\nprint(\"Uppercase:\", my_string.upper())  # Output: HELLO, WORLD!\nprint(\"Lowercase:\", my_string.lower())  # Output: hello, world!\nprint(\"Title Case:\", my_string.title())  # Output: Hello, World!\nprint(\"Split:\", my_string.split(\", \"))  # Output: ['Hello', 'World!']\nprint(\"Join:\", \", \".join(['Hello', 'World!']))  # Output: Hello, World!\nprint(\"Replace:\", my_string.replace(\"World\", \"Python\"))  # Output: Hello, Python!\nprint(\"Find:\", my_string.find(\"World\"))  # Output: 7\nprint(\"Count:\", my_string.count(\"o\"))  # Output: 2\nprint(\"Starts with 'Hello':\", my_string.startswith(\"Hello\"))  # Output: True",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "name = \"Alice\"\nage = 30\nformatted_string = f\"My name is {name} and I am {age} years old.\"\nprint(\"Formatted string:\", formatted_string)  # Output: My name is Alice and I am 30 years old.\n# String Example # 9\n# String Escape Characters\nescaped_string = \"Hello, \\\"World\\\"!\\nNew line here.\"\nprint(\"Escaped string:\", escaped_string)\n# String Example # 10\n# String Comparison",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "age = 30\nformatted_string = f\"My name is {name} and I am {age} years old.\"\nprint(\"Formatted string:\", formatted_string)  # Output: My name is Alice and I am 30 years old.\n# String Example # 9\n# String Escape Characters\nescaped_string = \"Hello, \\\"World\\\"!\\nNew line here.\"\nprint(\"Escaped string:\", escaped_string)\n# String Example # 10\n# String Comparison\nstring1 = \"apple\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "formatted_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "formatted_string = f\"My name is {name} and I am {age} years old.\"\nprint(\"Formatted string:\", formatted_string)  # Output: My name is Alice and I am 30 years old.\n# String Example # 9\n# String Escape Characters\nescaped_string = \"Hello, \\\"World\\\"!\\nNew line here.\"\nprint(\"Escaped string:\", escaped_string)\n# String Example # 10\n# String Comparison\nstring1 = \"apple\"\nstring2 = \"banana\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "escaped_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "escaped_string = \"Hello, \\\"World\\\"!\\nNew line here.\"\nprint(\"Escaped string:\", escaped_string)\n# String Example # 10\n# String Comparison\nstring1 = \"apple\"\nstring2 = \"banana\"\nif string1 < string2:\n    print(f\"{string1} is less than {string2}\")\nelse:\n    print(f\"{string1} is greater than or equal to {string2}\")",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "string1",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "string1 = \"apple\"\nstring2 = \"banana\"\nif string1 < string2:\n    print(f\"{string1} is less than {string2}\")\nelse:\n    print(f\"{string1} is greater than or equal to {string2}\")\n# String Example # 11\n# String Iteration\nmy_string = \"Hello\"\nfor char in my_string:",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "string2",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "string2 = \"banana\"\nif string1 < string2:\n    print(f\"{string1} is less than {string2}\")\nelse:\n    print(f\"{string1} is greater than or equal to {string2}\")\n# String Example # 11\n# String Iteration\nmy_string = \"Hello\"\nfor char in my_string:\n    print(char)",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"Hello\"\nfor char in my_string:\n    print(char)\n# String Example # 12\n#multiple line string\nmulti_line_string = \"\"\"This is a string\nthat spans multiple lines.  \nIt can be useful for documentation.\"\"\"\nprint(multi_line_string)\n# String Example # 13  ",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "multi_line_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "multi_line_string = \"\"\"This is a string\nthat spans multiple lines.  \nIt can be useful for documentation.\"\"\"\nprint(multi_line_string)\n# String Example # 13  \n# String to List Conversion\nmy_string = \"apple,banana,cherry\"\nmy_list = my_string.split(\",\")\nprint(\"List from string:\", my_list)  # Output: ['apple', 'banana', 'cherry']\n# String Example # 14",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"apple,banana,cherry\"\nmy_list = my_string.split(\",\")\nprint(\"List from string:\", my_list)  # Output: ['apple', 'banana', 'cherry']\n# String Example # 14\n# List to String Conversion\nmy_list = ['apple', 'banana', 'cherry']\nmy_string = \", \".join(my_list)\nprint(\"String from list:\", my_string)  # Output: apple, banana, cherry\n# String Example # 15\n# String to Integer Conversion",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_list = my_string.split(\",\")\nprint(\"List from string:\", my_list)  # Output: ['apple', 'banana', 'cherry']\n# String Example # 14\n# List to String Conversion\nmy_list = ['apple', 'banana', 'cherry']\nmy_string = \", \".join(my_list)\nprint(\"String from list:\", my_string)  # Output: apple, banana, cherry\n# String Example # 15\n# String to Integer Conversion\nmy_string = \"123\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_list = ['apple', 'banana', 'cherry']\nmy_string = \", \".join(my_list)\nprint(\"String from list:\", my_string)  # Output: apple, banana, cherry\n# String Example # 15\n# String to Integer Conversion\nmy_string = \"123\"\nmy_integer = int(my_string)\nprint(\"Integer from string:\", my_integer)  # Output: 123\n# String Example # 16\n# Integer to String Conversion",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \", \".join(my_list)\nprint(\"String from list:\", my_string)  # Output: apple, banana, cherry\n# String Example # 15\n# String to Integer Conversion\nmy_string = \"123\"\nmy_integer = int(my_string)\nprint(\"Integer from string:\", my_integer)  # Output: 123\n# String Example # 16\n# Integer to String Conversion\nmy_integer = 123",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"123\"\nmy_integer = int(my_string)\nprint(\"Integer from string:\", my_integer)  # Output: 123\n# String Example # 16\n# Integer to String Conversion\nmy_integer = 123\nmy_string = str(my_integer)\nprint(\"String from integer:\", my_string)  # Output: '123'\n# String Example # 17\n# String to Float Conversion",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_integer",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_integer = int(my_string)\nprint(\"Integer from string:\", my_integer)  # Output: 123\n# String Example # 16\n# Integer to String Conversion\nmy_integer = 123\nmy_string = str(my_integer)\nprint(\"String from integer:\", my_string)  # Output: '123'\n# String Example # 17\n# String to Float Conversion\nmy_string = \"123.45\"",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_integer",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_integer = 123\nmy_string = str(my_integer)\nprint(\"String from integer:\", my_string)  # Output: '123'\n# String Example # 17\n# String to Float Conversion\nmy_string = \"123.45\"\nmy_float = float(my_string)\nprint(\"Float from string:\", my_float)  # Output: 123.45\n# String Example # 18\n# Float to String Conversion",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = str(my_integer)\nprint(\"String from integer:\", my_string)  # Output: '123'\n# String Example # 17\n# String to Float Conversion\nmy_string = \"123.45\"\nmy_float = float(my_string)\nprint(\"Float from string:\", my_float)  # Output: 123.45\n# String Example # 18\n# Float to String Conversion\nmy_float = 123.45",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = \"123.45\"\nmy_float = float(my_string)\nprint(\"Float from string:\", my_float)  # Output: 123.45\n# String Example # 18\n# Float to String Conversion\nmy_float = 123.45\nmy_string = str(my_float)\nprint(\"String from float:\", my_string)  # Output: '123.45'",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_float",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_float = float(my_string)\nprint(\"Float from string:\", my_float)  # Output: 123.45\n# String Example # 18\n# Float to String Conversion\nmy_float = 123.45\nmy_string = str(my_float)\nprint(\"String from float:\", my_string)  # Output: '123.45'",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_float",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_float = 123.45\nmy_string = str(my_float)\nprint(\"String from float:\", my_string)  # Output: '123.45'",
+        "detail": "Main. List. Tupple. Dictionary. and String",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Main. List. Tupple. Dictionary. and String",
+        "description": "Main. List. Tupple. Dictionary. and String",
+        "peekOfCode": "my_string = str(my_float)\nprint(\"String from float:\", my_string)  # Output: '123.45'",
+        "detail": "Main. List. Tupple. Dictionary. and String",
         "documentation": {}
     },
     {
