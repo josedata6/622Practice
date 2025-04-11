@@ -180,20 +180,20 @@
         "documentation": {}
     },
     {
-        "label": "fi",
+        "label": "factRec",
         "kind": 2,
         "importPath": "fibinachi",
         "description": "fibinachi",
-        "peekOfCode": "def fib (n):\n    a, b = 0, 1\n    if n < 0:\n        print(\"Incorrect input\")\n        return\n    elif n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:",
+        "peekOfCode": "def factRec(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factRec(n-1)\nn = int(input(\"Enter a number: \"))\nprint(f\"The factorial of {n} is {factRec(n)}\")",
         "detail": "fibinachi",
         "documentation": {}
     },
     {
-        "label": "main",
-        "kind": 2,
+        "label": "n",
+        "kind": 5,
         "importPath": "fibinachi",
         "description": "fibinachi",
-        "peekOfCode": "def main():\n    n = int(input(\"Enter a number: \"))\n    print(fib(n))\nif __name__ == \"__main__\":\n        main()",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\nprint(f\"The factorial of {n} is {factRec(n)}\")",
         "detail": "fibinachi",
         "documentation": {}
     },
